@@ -1,0 +1,251 @@
+body {
+    background-color: #dfdfdf;
+    
+}
+
+#contenedor {
+    font-size:1em;
+    background-color: #ffffff;
+    border:#d3d3d3 1px solid;
+    text-align: justify;
+    margin: 10px auto;
+    width : 900px;
+    /* width: 100%; */
+    /*aaa  */
+}
+
+#encabezado {
+    width: 900px;
+    height: 150px;
+    /* background : url('../imagenes/banner1.jpg') no-repeat ; */
+    background : url('../imagenes/banner2.jpg') no-repeat ;
+    border: #d3d3d3 1px solid ;
+} 
+
+
+#encabezado h1 {
+    text-align: center ;
+    margin-top: 50px;
+}
+
+#contenido {
+    border: #d3d3d3 1px solid ;
+    margin: 20px 20px 10px;
+    padding: 10px 15px;
+}
+
+#contenido h2 {
+    color : #0075ff;
+    border-bottom: #CFBFB5 1px solid;
+    /* text-align: center ; */
+}
+
+#menu {
+    float: left;
+    width: 120px;
+}
+
+div#contenido {
+    border: #d3d3d3 1px solid ;
+    margin: 20px 20px 10px 180px;
+    padding: 10px 15px;
+}
+
+#menu li {
+    border: #d3d3d3 3px solid;
+    background-color: #0075ff;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 30px;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color : #000000;
+}
+
+#menu li:hover {
+    background-color: #7092be;
+}
+
+#menu li:activa,#menu li:hover {
+    background-color: #7092be;
+}
+
+/* Formulario asignar */
+
+#frmasignar {
+    width: 600px;
+    /* background: #22b6f0; */
+    padding: 5px;
+    /* margin: auto; */
+    margin-top: 10px;
+    border-radius: 4px;
+   
+}
+
+#frmasignar label {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    display: block;
+}
+  
+.control {
+    width: 200px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 13px;
+    /* border: 1px solid #1f53c5; */
+    font-family: 'calibri';
+    font-size: 15px;
+    color: black;
+}
+  
+  
+#frmasignar .botons {
+    width: 100px;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+#frmasignar .consulta {
+    width: 100px;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+.Pdf{
+    float: right;
+    width: 150px;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+.agregarPaciente {
+    width: 150px;
+    background: #44a9f6;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+
+/* Adding transformation when the button is active */
+  
+.agregarPaciente:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+#contenido h3 {
+    height: 20px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#infPaciente{
+    height: 20px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 10px;
+    margin-bottom: 20px;
+    
+}
+
+/* consulta cita */
+#frmconsultar .consulta {
+    width: 100px;
+    background: #44a9f6;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+
+.consulta{
+    width: 150px;
+    background: #44a9f6;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+
+/* Adding transformation when the button is active */
+  
+.consulta:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+/* medico */
+.editar {
+    background: #5E5DF0;
+    border-radius: 999px;
+    /* box-shadow: #5E5DF0 0 10px 20px -10px; */
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+.eliminar {
+    background: #5E5DF0;
+    border-radius: 999px;
+    /* box-shadow: #5E5DF0 0 10px 20px -10px; */
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+
